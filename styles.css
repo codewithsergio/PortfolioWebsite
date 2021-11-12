@@ -1,0 +1,296 @@
+html {
+  font-size: 62.5%;
+  font-size: 1rem;
+}
+
+body {
+  font-family: Effra, sans-serif;
+  font-weight: 300;
+  margin: 0;
+  background-color: rgb(170, 197, 255);
+  padding: 0;
+}
+
+a:hover {
+  color: black;
+}
+
+nav a:hover {
+  color: white;
+}
+
+nav a:visited {
+  color: black;
+}
+
+a:active {
+  color: black;
+}
+
+nav {
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  padding: 15px;
+}
+
+#pageContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  line-height: 1.55;
+  color: #20323c;
+}
+
+#nameDiv {
+  display: flex;
+  box-shadow: -10px 10px 20px rgb(150, 150, 150, 0.5);
+  margin: auto;
+  margin-top: 2rem;
+  background-color: rgb(218, 188, 247);
+  border-radius: 2rem;
+  align-items: center;
+  padding: 0.5rem;
+  color: black;
+}
+
+#nameDiv p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+#nameDivSub {
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+#me {
+  width: 7rem;
+  height: 7rem;
+  display: inline;
+  margin-left: 70px;
+  border-radius: 100%;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.3rem;
+  margin: 0 0 0.7rem 0;
+  text-shadow: 3px 3px 3px rgba(60, 60, 60, 0.4);
+}
+
+h2 {
+  font-size: 2rem;
+  color: black;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+.caption {
+  margin-top: 0;
+  font-size: 0.9rem;
+}
+
+a {
+  color: black;
+}
+
+.justified {
+  display: flex;
+  flex-direction: column;
+}
+
+#sLink {
+  text-decoration: none;
+}
+
+.standardDev {
+  font-size: 1.2rem;
+}
+
+.description {
+  width: 18rem;
+  text-align: left;
+}
+
+footer {
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.gradeTable,
+tr,
+td,
+th {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+::selection {
+  color: white;
+  background-color: rgb(40, 40, 40);
+}
+
+@media screen and (min-width: 500px) {
+  h1 {
+    font-size: 2.7rem;
+  }
+
+  nav a:hover {
+    color: black;
+  }
+
+  nav {
+    text-align: right;
+    background-color: white;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+  }
+
+  nav li {
+    display: inline;
+    padding: 15px;
+  }
+
+  #me {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  #nameDivSub p {
+    font-size: 1.8rem;
+    margin: 0;
+    margin-right: 20px;
+  }
+
+  #nameDiv {
+    margin-top: 100px;
+    padding: 2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-left: 3%;
+    margin-right: auto;
+  }
+
+  h3 {
+    font-size: 2.1rem;
+    margin-left: 3%;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  .caption {
+    font-size: 1.3rem;
+    margin-top: 0;
+    margin-left: 3%;
+    margin-right: auto;
+  }
+
+  .description {
+    width: 38rem;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gradeTable {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 847px) {
+  h1 {
+    font-size: 2.7rem;
+    font-weight: 100;
+  }
+
+  nav a:hover {
+    color: black;
+  }
+
+  nav {
+    text-align: right;
+    background-color: white;
+    padding: 20px;
+  }
+
+  nav li {
+    display: inline;
+    padding: 15px;
+    margin-right: 50px;
+  }
+
+  #me {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  #nameDivSub p {
+    font-size: 1.8rem;
+    margin: 0;
+    margin-right: 20px;
+  }
+
+  #nameDiv {
+    margin-top: 100px;
+    padding: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-left: 9%;
+    margin-right: auto;
+  }
+
+  h3 {
+    font-size: 2.1rem;
+    margin-left: 9%;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  .caption {
+    font-size: 1.3rem;
+    margin-top: 0;
+    margin-left: 9%;
+    margin-right: auto;
+  }
+
+  .description {
+    width: 45rem;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gradeTable {
+    font-size: 1.8rem;
+  }
+}
